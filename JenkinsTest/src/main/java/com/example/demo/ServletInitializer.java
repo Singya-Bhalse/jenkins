@@ -7,7 +7,7 @@ public class ServletInitializer extends SpringBootServletInitializer {
 
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application) {
-		return application.sources(JenkinTestApplication.class);
+		return application.sources(JenkinTest1Application.class);
 	}
 
 }
